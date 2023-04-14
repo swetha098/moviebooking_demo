@@ -1,0 +1,27 @@
+<div class="container">
+   <form (ngSubmit)="onSubmit()" >
+        <div class="form-group">
+            <label for="movie">movie</label>
+            <select name="movies" id="movies" [(ngModel)]="ticobj.movie">
+                <option id="m1">hello</option>
+                <option id="m2">hi</option>
+            </select>
+
+        </div>
+        <div class="form-group">
+            <label for="date">date</label>
+            <input type="date" class="form-control" id="date" [(ngModel)]="ticobj.date">
+        </div>
+        <div class="form-group">
+            <label for="time">time</label>
+            <select name="time" id="time" [(ngModel)]="ticobj.time">
+                <option value="7">7pm</option>
+                <option value="9">9pm</option>
+            </select>
+            <button type="submit" class="btn btn-primary" on>Submit</button>
+            <span>{{vazha}}</span>
+            <h1>{{ticobj}}</h1>
+
+        </div>
+   </form>
+</div>

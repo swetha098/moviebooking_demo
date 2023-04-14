@@ -1,0 +1,10 @@
+nav a{color: aliceblue;
+        background-color: black;
+        opacity: 0.5;
+        margin: 10px;
+        
+}
+nav a :hover{
+    background-color: blue;
+}
+  
